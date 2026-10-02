@@ -11,6 +11,7 @@ Cipher:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 So HELLO WORLD becomes KHOOR ZRUOG. Decryption shifts each letter back by the same key.
 
 ### Implementation detail
+The program asks for a mode, a key, and the text.
 
 The program uses a single string with uppercase and lowercase letters interleaved:
 
@@ -27,8 +28,6 @@ No dependencies, just the Python standard library
 
 ### Requirements
 Python 3.6 or newer
-
-The program asks for a mode, a key, and the text.
 
 ### Encrypting:
 
